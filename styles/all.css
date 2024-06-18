@@ -28,12 +28,24 @@
     --rosa : rgb(207, 14, 143);
     --branco : #e9e9e9;
     --preto : #2a2a2a;
+    --botaoTamanho : 50px;
 }
 
 #intro {
     font-family: Valentine;
+    background-color: var(--vermelho);
+    color: var(--branco);
 }
 
 #selo{
+    width: var(--botaoTamanho);
+    height: var(--botaoTamanho);
+    border: none;
+    border: var(--branco) 2px solid;
     background-color: var(--vermelho);
+    font-size: 18pt;
+}
+
+#selo i {
+    color: var(--branco);
 }
