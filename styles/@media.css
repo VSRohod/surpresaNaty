@@ -1,14 +1,9 @@
-/* celular */
-@media screen and (min-width : 300px) {
-
-}
-
 /* tablet */
-@media screen and (min-width : 768px) {
-
-}
-
-/* pc */
-@media screen and (min-width : 1024px) {
-
+@media screen and (max-width : 768px) {
+    h4{
+        font-size: 12pt!important;
+    }
+    h3{
+        font-size: 22pt!important;
+    }
 }
