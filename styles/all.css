@@ -1,35 +1,82 @@
+/* fonts */
 @font-face {
     font-family: Valentine;
     src: url(../fonts/valentine_cute/Valentine\ Cute.ttf);
 }
 
-/* celular */
-@media screen and (min-width : 300px) {
-
-}
-
-/* tablet */
-@media screen and (min-width : 768px) {
-
-}
-
-/* pc */
-@media screen and (min-width : 1024px) {
-
-}
-
-
+/* root */
 
 :root{
     --vermelho : rgb(206, 61, 61);
     --laranjas : rgb(207, 78, 14);
-    --rosa : rgb(207, 14, 78);
+    --rosa : rgb(213, 47, 100);
     --amarelo : rgb(207, 143, 14);
-    --rosa : rgb(207, 14, 143);
     --branco : #e9e9e9;
     --preto : #2a2a2a;
+    --roxo : #8338ec;
+    --azul : #3a86ff;
+    --azul2 : #473aff;
+    --ciano : #4cc9f0;
+    --transparente : #ffffff00;
     --botaoTamanho : 50px;
+    --h1 : 40pt;
+    --h2 : 32pt;
+    --h3 : 26pt;
+    --h4 : 22pt;
+    --h5 : 20pt;
+    --p1 : 14pt;
+    --p2 : 12pt;
 }
+
+/* page elements */
+
+section{
+    transition: 1s;
+}
+
+aside{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex; 
+}
+
+p{
+    margin: 0.5rem;
+}
+
+footer{
+    padding: 1rem 0rem;
+    background-color: var(--blue);
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--blue);
+}
+
+h1{
+    font-size: var(--h1);
+}
+
+h2{
+    font-size: var(--h2);
+}
+
+h3{
+    font-size: var(--h3);
+}
+
+h4{
+    font-size: var(--h4);
+    margin: 1rem;
+}
+
+h5{
+    font-size: var(--h5);
+}
+
+/* elementos */
 
 #intro {
     font-family: Valentine;
@@ -37,15 +84,43 @@
     color: var(--branco);
 }
 
-#selo{
+.nextBtn{
     width: var(--botaoTamanho);
     height: var(--botaoTamanho);
     border: none;
     border: var(--branco) 2px solid;
-    background-color: var(--vermelho);
+    background-color: var(--transparente);
     font-size: 18pt;
 }
 
-#selo i {
+.nextBtnWhite{
+    width: var(--botaoTamanho);
+    height: var(--botaoTamanho);
+    border: none;
+    border: var(--vermelho) 2px solid;
+    background-color: var(--transparente);
+    font-size: 18pt;
+}
+
+.nextBtnWhite i{
+    color: var(--vermelho);
+}
+
+.nextBtn i {
+    color: var(--branco);
+}
+
+#texto2{
+    background-color: var(--rosa);
+    color: var(--branco);
+}
+
+#texto4{
+    background-color: var(--azul);
+    color: var(--branco);
+}
+
+#texto5{
+    background-color: var(--roxo);
     color: var(--branco);
 }
